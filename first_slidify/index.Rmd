@@ -7,7 +7,7 @@ framework   : revealjs       # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
+mode        : standalone # {standalone, draft}
 knit        : slidify::knit2slides
 ---$vcenter
 
@@ -45,7 +45,7 @@ $^{\circ} F = ^{\circ} C * (9/5) + 32$
 
 $^{\circ} C = (^{\circ} F  - 32) * (5/9)$
 
---- .class #id 
+--- 
 
 ## Graphical Representation
 
