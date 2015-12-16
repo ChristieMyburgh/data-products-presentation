@@ -15,7 +15,7 @@ knit        : slidify::knit2slides
 
 ### $^{\circ}$ C <=> $^{\circ}$ F 
 
-#### Christie Myburgh
+Christie Myburgh
 
 --- 
 
