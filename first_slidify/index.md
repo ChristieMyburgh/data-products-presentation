@@ -3,34 +3,55 @@ title       : Temperature Conversion Application
 subtitle    : 
 author      : Christie Myburgh
 job         : Engineer
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+framework   : revealjs       # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
-widgets     : []            # {mathjax, quiz, bootstrap}
+widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
+---$vcenter
+
+## TEMPERATURE CONVERSION APPLICATION
+
+### $^{\circ}$ C <=> $^{\circ}$ F 
+
+#### Christie Myburgh
+
+--- 
+
+## Main Features
+
+1. Ease of use
+  
+2.  Correct conversion formulas.
+
+3. Graphical representation of results
+
+--- 
+
+## Ease of Use
+
+![](input.png)
+
 ---
 
-## Slide 2
+## Conversion Formulas
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+* Celcius to Fahrenheit
 
---- .class #id 
+$^{\circ} F = ^{\circ} C * (9/5) + 32$
 
-## Slide 3
+* Fahrenheit to Celcius
 
-Slide 2 info
+$^{\circ} C = (^{\circ} F  - 32) * (5/9)$
 
 --- .class #id 
 
-## Slide 4
+## Graphical Representation
 
-Slide 4 info
+1. Blue line represent Celcius - Fahrenheit relationship
 
---- .class #id 
+2. Red point represent user's converted value.
 
-## Slide 5
+![plot of chunk example_plot](assets/fig/example_plot-1.png) 
 
-Slide 5 info
