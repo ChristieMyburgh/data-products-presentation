@@ -31,7 +31,7 @@ knit        : slidify::knit2slides
 
 ## Ease of Use
 
-![](input.png)
+![](input.PNG)
 
 ---
 
