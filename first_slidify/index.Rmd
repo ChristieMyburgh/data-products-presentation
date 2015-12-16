@@ -21,11 +21,11 @@ knit        : slidify::knit2slides
 
 ## Main Features
 
-1. Ease of use
+1. Ease of use.
   
 2.  Correct conversion formulas.
 
-3. Graphical representation of results
+3. Graphical representation of results.
 
 --- 
 
